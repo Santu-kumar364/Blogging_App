@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Blogging_App/static/css/main.9737b180.css",
+    "main.js": "/Blogging_App/static/js/main.b8652531.js",
+    "index.html": "/Blogging_App/index.html",
+    "main.9737b180.css.map": "/Blogging_App/static/css/main.9737b180.css.map",
+    "main.b8652531.js.map": "/Blogging_App/static/js/main.b8652531.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9737b180.css",
+    "static/js/main.b8652531.js"
+  ]
+}
