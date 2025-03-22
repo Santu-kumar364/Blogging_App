@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Test Post",
+      "datetime": "March 20, 2025 4:31:01 PM",
+      "body": "This is my test post.."
+    },
+    {
+      "id": "2",
+      "title": "url success",
+      "datetime": "March 20, 2025 3:42:11 PM",
+      "body": "Costom hooks successfully implemented now...,zzz"
+    },
+    {
+      "id": "21111",
+      "title": "H. Jackson Brown, Jr.",
+      "datetime": "March 20, 2025 4:31:56 PM",
+      "body": "The best preparation for tomorrow is doing your best today."
+    },
+    {
+      "id": "2111111",
+      "title": "Beautiful qoutes",
+      "datetime": "March 20, 2025 4:30:33 PM",
+      "body": "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart. Helen Keller\nRead more at https://www.brainyquote.com/topics/inspirational-quotes"
+    },
+    {
+      "id": "21111111",
+      "title": "Capstone project ",
+      "datetime": "March 20, 2025 4:34:48 PM",
+      "body": "1. Each student from the group must submit the report on moodle based on the work they have completed till mid-semester individually. \n\n2. The mid-term evaluation will be done based on the report submitted by each student.\n\n3. The name of that file must be “GroupNumber_RollNo_Name.pdf”.\n\n"
+    },
+    {
+      "id": "211111111",
+      "title": "useContext",
+      "datetime": "March 22, 2025 4:21:09 PM",
+      "body": "implemented useContext & Outlet."
+    },
+    {
+      "id": "21",
+      "title": "easy-peasy Redux",
+      "datetime": "March 22, 2025 8:59:24 PM",
+      "body": "in Camparison to <Outlet  Context={} /> & Context Api . I loved & empressed with easy-peasy redux .\n"
+    }
+  ]
+}

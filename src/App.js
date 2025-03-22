@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import { Outlet } from "react-router-dom";
+import Header from "./Header";
+import Nav from "./Nav";
+import Footer from "./Footer";
+import useAxiosFetch from "./hooks/useAxiosFetch";
+import { useEffect } from "react";
+import { useStoreActions } from "easy-peasy";
+import api from "./api/url";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const setPosts = useStoreActions((actions) => actions.setPosts);
+    const { data, fetchError, isLoading } = useAxiosFetch(api);
+
+    useEffect(() => {
+        setPosts(data);
+    }, [data, setPosts])
+
+    return (
+        <div className="App">
+            <Header title="React-Blog-Posts"
+                fetchError={fetchError}
+                isLoading={isLoading}
+            />
+            <Nav />
+
+            {/* Main content area */}
+            <Outlet />
+
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
+
+
