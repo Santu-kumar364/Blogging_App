@@ -1,17 +1,5 @@
- 
----
-
 # **Blogging Platform**  
-
-## **Overview**  
 I built a **blogging platform** with full **CRUD operations** using **JSON Server as a mock backend**. The application allows users to **create, read, update, and delete blog posts seamlessly** while ensuring efficient state management and smooth navigation.  
-
-## **Tech Stack**  
-- **Frontend:** React, CSS  
-- **Backend:** JSON Server (Mock API)  
-- **State Management:** Easy-Peasy  
-- **API Handling:** Axios  
-- **Routing:** React Router  
 
 ## **Features**  
 - **Create & Manage Blogs** – Users can add, edit, and delete blog posts effortlessly.  
